@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Choisis ton expérience</title>
+  <style>
+    body { font-family: sans-serif; text-align: center; padding-top: 50px; }
+    button { margin: 20px; padding: 20px; font-size: 18px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>Pour ton anniversaire, choisis l'une des 3 expériences...</h1>
+  <button onclick="alert('Tu as choisi Montagne en Scène !')">Option 1</button>
+  <button onclick="alert('Tu as choisi l'atelier de poterie !')">Option 2</button>
+  <button onclick="alert('Tu as choisi Disneyland !')">Option 3</button>
+</body>
+</html>
